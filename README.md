@@ -23,6 +23,17 @@ theGame()
 	Find what you can on make this work.
 	rules / and how to implement. 
 	Do NOT forget to quote sources and links. 
+	
+	RULES 
+	https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock
+	
+	INSPO 
+	https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript
+	https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/
+	https://codereview.stackexchange.com/questions/102057/rock-paper-scissors-lizard-and-spock
+	
+	FUNCTONS
+	https://stackoverflow.com/questions/23849365/adding-scores-to-a-variable
 
 score()
 	How to keep score? 
@@ -33,7 +44,7 @@ score()
 			else you lose. 
 		i believe its somehing like this. 
 
-	playerScore = 0;
+playerScore = 0;
 	computerScore = 0;
 		if player win i++ ?? i = playerScore
 		same but compScore. 
@@ -43,7 +54,7 @@ result()
 	computer picked **** you picked ****
 	**** beats **** so comp win.
 
-	document. results, some inner/outerHTML here targeting the result div
+document. results, some inner/outerHTML here targeting the result div
 	to make it appear? i guess thats the way to do it. 
 	google it, find out. You have time. 
 
