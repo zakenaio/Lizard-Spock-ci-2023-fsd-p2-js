@@ -62,7 +62,12 @@ function playerChoice(choice) {
     document.getElementById('result').innerHTML = `You chose ${choice}.Computer chose ${computer}.${result}`;
 }
 
-
+// RESET BUTTON! 
+function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    updateScore();
+}
 
 
 
