@@ -12,7 +12,6 @@ body {
     background-color: rgba(255, 255, 255, 0.523);
     padding: 20px;
     border-radius: 20px;
-
 }
 
 #the-game {
@@ -23,13 +22,13 @@ body {
     border-radius: 20px;
 }
 
+#result {
+    height: 120px;
+}
+
 #score {
     display: flex;
     justify-content: space-around;
-}
-
-#result {
-    height: 120px;
 }
 
 .scores {
@@ -39,8 +38,8 @@ body {
     border: 1px solid;
 }
 
-#playerScore,
-#computerScore {
+#player-score,
+#computer-score {
     font-weight: 600;
 }
 
