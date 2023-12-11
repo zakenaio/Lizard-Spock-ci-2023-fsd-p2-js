@@ -72,3 +72,11 @@ HTML fundamentals.
 The html should be relatively easy to whip up. 
 again divs, i must use span for the scores, only way i can 
 think of right now to make it change, if not a div and innerHTML-something. 
+
+Use of https://developer.chrome.com/blog/css-text-wrap-balance/
+for heading. 
+
+Favicon https://www.flaticon.com/free-icon/vulcan-salute_4763373?term=spock&page=1&position=1&origin=tag&related_id=4763373
+
+Helpfull on array insteed of if / else. 
+https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/

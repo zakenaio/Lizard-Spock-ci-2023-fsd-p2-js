@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="vulcan-favicon.png">
+
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -17,7 +20,7 @@
 
     <!-- HEADING -->
     <div id="heading">
-        <h1>Rock Paper Scissor Lizard Spock.</h1>
+        <h1>Rock Paper Scissors Lizard Spock.</h1>
     </div>
 
     <!-- THE GAME -->
@@ -26,10 +29,11 @@
         <!-- SCORES -->
         <div id="score">
             <div class="scores">
-                Player: <span id="player-score">0</span>
+                <i class="fa-solid fa-user-large"></i> : <span id="player-score">0</span>
             </div>
+            <div style="flex-grow: 1;"></div>
             <div class="scores">
-                Computer: <span id="computer-score">0</span>
+                <i class="fa-solid fa-robot"></i> : <span id="computer-score">0</span>
             </div>
         </div>
 
@@ -41,44 +45,51 @@
 
         <!-- GAME BUTTONS -->
         <div class="choices">
-            <button onclick="playerChoice('rock')">Rock</button>
-            <button onclick="playerChoice('paper')">Paper</button>
-            <button onclick="playerChoice('scissors')">Scissors</button>
-            <button onclick="playerChoice('lizard')">Lizard</button>
-            <button onclick="playerChoice('spock')">Spock</button>
+            <button onclick="playerChoice('rock')"><i class="fa-solid fa-hand-back-fist"></i> <br>Rock</button>
+            <button onclick="playerChoice('paper')"><i class="fa-solid fa-hand"></i> <br>Paper</button>
+            <button onclick="playerChoice('scissors')"><i class="fa-solid fa-hand-scissors"></i> <br>Scissors</button>
+            <button onclick="playerChoice('lizard')"><i class="fa-solid fa-hand-lizard"></i> <br>Lizard</button>
+            <button onclick="playerChoice('spock')"><i class="fa-solid fa-hand-spock"></i> <br>Spock</button>
             <!-- RESET BUTTON -->
-            <button onclick="resetGame()">Reset</button>
+            <button onclick="resetGame()"><i class="fa-solid fa-rotate-left"></i> <br>Reset</button>
         </div>
 
-        <!-- RULES DIV -->
-        <div class="rules">
-            <div>
-                <h3>
-                    Rules
-                </h3>
+        
+    </div>
+    <!-- RULES DIV -->
+    <div class="rules">
+        <div>
+            <h3>
+                Rules
+            </h3>
+        </div>
+        <div class="wrap">
+            <div class="left">
+                Rock crushes lizard.<br>
+                Scissors cuts paper.<br>
+                Paper covers rock.<br>
+                Lizard poisons Spock.<br>
+                Spock smashes scissors.<br>
             </div>
-            <div class="wrap">
-                <div class="left">
-                    Rock crushes lizard.<br>
-                    Scissors cuts paper.<br>
-                    Paper covers rock.<br>
-                    Lizard poisons Spock.<br>
-                    Spock smashes scissors.<br>
-                </div>
-                <div class="right">
-                    Rock crushes scissors.<br>
-                    Scissors decapitates lizard.<br>
-                    Paper disproves Spock.<br>
-                    Lizard eats paper.<br>
-                    Spock vaporizes rock.<br>
-                </div>
+            <div class="right">
+                Rock crushes scissors.<br>
+                Scissors decapitates lizard.<br>
+                Paper disproves Spock.<br>
+                Lizard eats paper.<br>
+                Spock vaporizes rock.<br>
             </div>
         </div>
+        <p>
+            <a href="https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock" title="Link to more rules of the game, opens in new tab" target="_blank">Link</a> to a more discriptive version av the rules. 
+        </p>
     </div>
 </div>
 
 <script src="assets/js/script.js"></script>
 <!-- need to find a nice font, and maybe some font awseome icons -->
+<!-- FONT AWESOME HOOK -->
+<script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
