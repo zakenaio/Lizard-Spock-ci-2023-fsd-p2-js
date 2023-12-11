@@ -26,9 +26,6 @@ const wins = {
  * player === comp : tie.
  */
 function whoWins(player, computer) {
-    if (player === computer) {
-        return 'Tie!';
-    }
     const winConditions = wins[player];
     if (winConditions.includes(computer)) {
         return 'You win!';
@@ -64,6 +61,9 @@ function playerChoice(choice) {
     updateScore();
     document.getElementById('result').innerHTML = `You chose ${choice}.Computer chose ${computer}.${result}`;
 }
+
+
+
 
 
 
