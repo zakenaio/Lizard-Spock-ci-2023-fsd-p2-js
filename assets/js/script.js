@@ -1,11 +1,5 @@
-/** Here is the computers choice
-     * let, const? test. 
-    */
 
-// MAKE SURE ITS RANDOM
-// use Math.floor for int, rounded whole number
-// use Math.random for random number * 5 for the different
-// choices
+// COMPUTER CHOICE 
 function computerChoice() {
     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     const randomNumber = Math.floor(Math.random() * 5);
@@ -13,7 +7,6 @@ function computerChoice() {
 }
 
 // WIN LOSE LIST TEST 
-// try if / else if you dont make this work. 
 const wins = {
     rock: ['scissors', 'lizard'],
     paper: ['rock', 'spock'],
@@ -35,8 +28,7 @@ function whoWins(player, computer) {
     }
 }
 
-// SCORES HERE 
-// START SCORE = 0 
+// SCORES 
 let playerScore = 0;
 let computerScore = 0;
 
@@ -51,7 +43,7 @@ function playerChoice(choice) {
     const computer = computerChoice();
     const result = whoWins(choice, computer);
 
-    // PLEASE WORK! 
+    // SCORE ADDITION 
     if (result === 'You win!') {
         playerScore++;
     } else if (result === 'You lose!') {
@@ -60,7 +52,7 @@ function playerChoice(choice) {
 
     // SCORE UPDATE
     updateScore();
-    document.getElementById('result').innerHTML = `You chose ${choice}.Computer chose ${computer}.${result}`;
+    document.getElementById('result').innerHTML = `<h2>You chose ${choice}.<br>Computer chose ${computer}.<br>${result}</h2>`;
 }
 
 // RESET BUTTON! 
@@ -68,9 +60,5 @@ function resetGame() {
     playerScore = 0;
     computerScore = 0;
     updateScore();
+    document.getElementById('result').innerHTML = `<h2>RESULTS</h2>`;
 }
-
-
-
-
-

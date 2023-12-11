@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
-    
+
     <!--TITLE -->
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
-<div>
-    <!-- MAIN CONTAINER -->
-    <!-- here will be all the content.-->
-    <div id="main-container">
+
+<!-- MAIN CONTAINER -->
+<div id="main-container">
+
+    <!-- HEADING -->
+    <div id="heading">
         <h1>Rock Paper Scissor Lizard Spock.</h1>
-    
-        <!-- THE GAME -->
-        <div id="the-game">
+    </div>
 
-            <!-- RESULTS CONTAINER-->
-            <div id="result">
-                <h2>
-                    Results.
-                </h2>
+    <!-- THE GAME -->
+    <div id="the-game">
+
+        <!-- SCORES -->
+        <div id="score">
+            <div class="scores">
+                Player: <span id="player-score">0</span>
             </div>
-
-            <!-- SCORES -->
-            <div id="score">
-                <div class="scores">
-                    Player: <span id="player-score">0</span>
-                </div>
-                <div class="scores">
-                    Computer: <span id="computer-score">0</span>
-                </div>
+            <div class="scores">
+                Computer: <span id="computer-score">0</span>
             </div>
+        </div>
 
-            <!-- GAME BUTTONS -->
-            <div class="choices">
-                <button onclick="playerChoice('rock')">Rock</button>
-                <button onclick="playerChoice('paper')">Paper</button>
-                <button onclick="playerChoice('scissors')">Scissors</button>
-                <button onclick="playerChoice('lizard')">Lizard</button>
-                <button onclick="playerChoice('spock')">Spock</button>
-            </div>
+        <!-- RESULTS CONTAINER-->
+        <div id="result">
+            <h2> RESULTS
+            </h2>
+        </div>
 
+        <!-- GAME BUTTONS -->
+        <div class="choices">
+            <button onclick="playerChoice('rock')">Rock</button>
+            <button onclick="playerChoice('paper')">Paper</button>
+            <button onclick="playerChoice('scissors')">Scissors</button>
+            <button onclick="playerChoice('lizard')">Lizard</button>
+            <button onclick="playerChoice('spock')">Spock</button>
             <!-- RESET BUTTON -->
-            <div class="choices">
-
             <button onclick="resetGame()">Reset</button>
+        </div>
 
+        <!-- RULES DIV -->
+        <div class="rules">
+            <div>
+                <h3>
+                    Rules
+                </h3>
+            </div>
+            <div class="wrap">
+                <div class="left">
+                    Rock crushes lizard.<br>
+                    Scissors cuts paper.<br>
+                    Paper covers rock.<br>
+                    Lizard poisons Spock.<br>
+                    Spock smashes scissors.<br>
+                </div>
+                <div class="right">
+                    Rock crushes scissors.<br>
+                    Scissors decapitates lizard.<br>
+                    Paper disproves Spock.<br>
+                    Lizard eats paper.<br>
+                    Spock vaporizes rock.<br>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -57,4 +80,5 @@
 <script src="assets/js/script.js"></script>
 <!-- need to find a nice font, and maybe some font awseome icons -->
 </body>
+
 </html>
