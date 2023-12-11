@@ -22,11 +22,12 @@ const wins = {
     spock: ['rock', 'scissors'],
 }
 
-/** WHO WINS
- * player === comp : tie.
- */
+//  WHO WINS
 function whoWins(player, computer) {
     const winConditions = wins[player];
+    if (player === computer) {
+        return 'Tie!';
+    }
     if (winConditions.includes(computer)) {
         return 'You win!';
     } else {
