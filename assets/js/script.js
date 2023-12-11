@@ -12,6 +12,9 @@ function computerChoice() {
     return choices[randomNumber];
 }
 
+const computerPick = computerChoice();
+console.log('Computer\'s choice:', computerPick);
+
 
     // try results, your need results. 
     // how to target them?
