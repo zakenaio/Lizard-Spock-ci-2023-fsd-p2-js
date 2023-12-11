@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!--TITLE -->
+    <title>Rock Paper Scissors Lizard Spock</title>
+</head>
+<div>
+    <!-- MAIN CONTAINER -->
+    <!-- here will be all the content.-->
+    <div id="main-container">
+        <h1>Rock Paper Scissor Lizard Spock.</h1>
+    
+        <!-- THE GAME -->
+        <div id="the-game">
+            <p>the game container.</p>
+
+            <!-- SCORES -->
+            <div id="score">
+                <div class="scores">
+                    Player: <span id="playerScore">0</span>
+                </div>
+                <div class="scores">
+                    Computer: <span id="computerScore">0</span>
+                </div>
+            </div>
+
+            <!-- GAME BUTTONS -->
+            <div class="choices">
+                <button onclick="playerChoice('rock')">Rock</button>
+                <button onclick="playerChoice('paper')">Paper</button>
+                <button onclick="playerChoice('scissors')">Scissors</button>
+                <button onclick="playerChoice('lizard')">Lizard</button>
+                <button onclick="playerChoice('spock')">Spock</button>
+            </div>
+
+            <!-- RESET BUTTON -->
+            <div class="choices">
+
+            <button onclick="resetGame()">Reset</button>
+
+        </div>
+    </div>
+</div>
+
+<!-- need to find a nice font, and maybe some font awseome icons -->
+</body>
+</html>
