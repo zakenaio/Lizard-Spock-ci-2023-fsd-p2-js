@@ -32,7 +32,7 @@ the greenish background and the main Game Content area to not be too stale.
 - `#3b2b40` Background header and Rules.
 - `#73305c` Background Content gradient top left.
 - `#8f4274` Background Content gradient bottom right.
-- `#b5d3c1` Link color. 
+- `#4ec466` Link color to make it pop. 
 
 ### Typography
 
