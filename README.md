@@ -1,47 +1,50 @@
+check spelling
 # [LIZARD SPOCK CI 2023 FSD P2 JS](https://zakenaio.github.io/Lizard-Spock-ci-2023-fsd-p2-js)
 
 The wonderful world of pop-culture games. 
-Rock Paper Scissors Lizard Spock was made famous in the show The Big Bang Theory, and is 
-definetly perfect for a thing like this. 
+Rock Paper Scissors Lizard Spock was made famous in the show The Big Bang Theory, and is definitely perfect for a thing like this. 
 
-RULES 
-https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock
+RULES  
+- https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock
 
 
 ![screenshot](documentation/respons.png)
 
+The live link can be found [here](https://zakenaio.github.io/Lizard-Spock-ci-2023-fsd-p2-js)
+
 ## UX
 
+I opted for an easy to understand UX, with only the necessities. 
+Icons representing the User and Computer next to its Bolder score. 
 
+Icons and text on all the buttons for easy navigation. 
 
 ### Colour Scheme
 
-Colors where picked to make a high contrast, and slightly alien feel. Slight gradient on both
-the greenish background and the man Game Content area to not be to stale. 
+Colors were picked to make a high contrast, and slightly alien feel. Slight gradient on both
+the greenish background and the main Game Content area to not be too stale. 
 
 ![color scheme](documentation/colours.png)
 
 - `#009FE3` Primary text color.
-- `#000000` Background gradient top left.
-- `#E84610` Background gradient bottom right.
-- `#009FE3` Background header and Rules.
-- `#009FE3` Background Content gradient top left.
-- `#009FE3` Background Content gradient bottom right.
-- `#009FE3` Link color. 
+- `#7ba48b` Background gradient top left.
+- `#b5d3c1` Background gradient bottom right.
+- `#3b2b40` Background header and Rules.
+- `#73305c` Background Content gradient top left.
+- `#8f4274` Background Content gradient bottom right.
+- `#b5d3c1` Link color. 
 
 ### Typography
 
+Chose Arial, it's available on all platforms, and looks relatively modern. 
 
-
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-
+Icons for User, Computer and all the buttons are from Font Awesome.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site. 
 
 ## Wireframes
 
-They are exactly the same on mobile/desktop. 
+Wireframe with explanation of my process. 
 
 ![wireframe](documentation/wire-explain.png)
 
@@ -55,16 +58,16 @@ They are exactly the same on mobile/desktop.
 
 - **Header**
 
-    - In the header i have used a relativly new function called text-wrap: balance. 
+    - In the header I have used a relatively new function called text-wrap: balance. 
     On big screens it makes no difference.  
 
 ![screenshot](documentation/feat-header.png)
 
 - **Header Mobile text-wrap**
 
-    -In the header i have used a relativly new function called text-wrap: balance. 
-    But here on mobile it make all the difference, usually the break would be after 
-    Lizard, so Spock. would have been alone (orfan) but with text-wrap: balance it 
+    -In the header I have used a relatively new function called text-wrap: balance. 
+    But here on mobile it makes all the difference, usually the break would be after 
+    Lizard, so Spock. would have been alone (orphan) but with text-wrap: balance it 
     balances the text, so we have two words on the lower line. Much prettier. 
 
 ![screenshot](documentation/feat-header-balance.png)
@@ -143,10 +146,10 @@ You can fork this repository by using the following steps:
 ## Credits
 
 RULES 
-All rules with images and propper discription fond [HERE](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)
+All of the rules with images and proper description found [HERE](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)
 
 
-I found some info how to use arrays insteed of IF/ELSE. 
+I found some info on how to use arrays instead of IF/ELSE. 
 And it made the code so much easier. found [HERE](https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/)
 
 
@@ -160,10 +163,16 @@ Use of text-wrap: balance
 
 Favicon was found [HERE](https://www.flaticon.com/free-icon/vulcan-salute_4763373?term=spock&page=1&position=1&origin=tag&related_id=4763373)
 
+More sources i have looked at to understand the process and functions. 
+- https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/
+
+- https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript
+
+- https://codereview.stackexchange.com/questions/102057/rock-paper-scissors-lizard-and-spock
+
 
 
 ### Content
-
 
 | Source | Location | Notes |
 | --- | --- | --- |
