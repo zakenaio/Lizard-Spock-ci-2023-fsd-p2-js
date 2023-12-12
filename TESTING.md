@@ -31,8 +31,12 @@ not using - text-wrap: balance
 
 ![Text-Wrap Comp](documentation/test-balance-comp-not.png)
 
+text-wrap: balance browser support
+
+![Broswer support](documentation/text-balance-comp.png)
+
 #### Use of text-wrap: balance
-Here is where i found the initial idea.
+Here is where I found the initial idea.
 - https://stackoverflow.com/questions/2908697/balanced-text-wrapping-in-html
 
 Here are information from developers.Google
