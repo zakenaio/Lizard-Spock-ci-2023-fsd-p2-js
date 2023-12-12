@@ -21,7 +21,7 @@ https://www.websiteplanet.com/webtools/responsive-checker/
 Colors where picked to make a high contrast, and slightly alien feel. Slight gradient on both
 the greenish background and the man Game Content area to not be to stale. 
 
-![color scheme](docomentation/colours.png)
+![color scheme](documentation/colours.png)
 
 - `#009FE3` Primary text color.
 - `#000000` Background gradient top left.
