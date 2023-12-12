@@ -10,7 +10,7 @@ body {
 
 #main-container {
     text-align: center;
-    
+
 }
 
 #heading {
@@ -27,7 +27,6 @@ body {
     padding: 20px;
     background-image: linear-gradient(-50deg, #8f4274, #73305c);
 }
-
 
 #score {
     display: flex;
@@ -96,7 +95,7 @@ i {
 
 @media screen and (min-height: 700px) {
 
-body {
-align-items: center;
-}
+    body {
+        align-items: center;
+    }
 }
