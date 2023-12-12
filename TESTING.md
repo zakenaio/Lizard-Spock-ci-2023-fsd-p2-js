@@ -24,9 +24,11 @@ It's supported in all but Safari so far, but on unsupported devices
 it just defaults to normal. 
 
 text-wrap: balance
-![Text-Wrap Comp](documentation/test-balance-comp.png)
+
+![Text-Wrap Comp](documentation/feat-header-balance.png)
 
 not using - text-wrap: balance
+
 ![Text-Wrap Comp](documentation/test-balance-comp-not.png)
 
 #### Use of text-wrap: balance
@@ -72,7 +74,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | DevTools | On Device |
 | --- | --- | --- |
-| Mobile  | ![mobile dev](documentation/test-responsive-mobile.jpg) | ![pixel 7p](documentation/test-respons-p7.png) |
+| Mobile  | ![mobile dev](documentation/test-respons-mobile.jpg) | ![pixel 7p](documentation/test-respons-mobile-p7.png) |
 | Tablet  | ![tablet dev](documentation/test-respons-tablet.jpg) | ![tablet samsung](documentation/test-respons-tablet-samsung.png) |
 | Desktop | ![desktop dev](documentation/test-respons-desktop.png) | ![desktop dev](documentation/test-respons-desktop-full.png) |  
 

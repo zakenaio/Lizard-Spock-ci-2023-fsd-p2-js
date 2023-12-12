@@ -10,8 +10,6 @@ https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock
 
 ![screenshot](documentation/respons.png)
 
-https://www.websiteplanet.com/webtools/responsive-checker/
-
 ## UX
 
 
