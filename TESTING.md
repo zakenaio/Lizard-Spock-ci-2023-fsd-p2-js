@@ -49,7 +49,7 @@ Link for testing of the live site.
 
 I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
 
-![JavaScript Validation](doocumentation/test-javascript.png)
+![JavaScript Validation](documentation/test-javascript.png)
 
 It says here that there are two functions not in use. 
 The playerChoice - Triggered by the buttons Rock / Paper / Scissors / Lizard / Spock.
@@ -78,6 +78,14 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Tablet  | ![tablet dev](documentation/test-respons-tablet.jpg) | ![tablet samsung](documentation/test-respons-tablet-samsung.png) |
 | Desktop | ![desktop dev](documentation/test-respons-desktop.png) | ![desktop dev](documentation/test-respons-desktop-full.png) |  
 
+
+## Test of functions in console
+
+![Computer](documentation/test-computer-choice.png)
+
+![Computer User](documentation/test-user-computer-choice.png)
+
+![Winner Loser](documentation/test-console1.png)
 
 ## Lighthouse Audit
 
