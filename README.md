@@ -1,82 +1,208 @@
-Lizard Spock JS Game. 
+# [LIZARD SPOCK CI 2023 FSD P2 JS](https://zakenaio.github.io/Lizard-Spock-ci-2023-fsd-p2-js)
 
-Initial ideas. 
+The wonderful world of pop-culture games. 
+Rock Paper Scissors Lizard Spock was made famous in the show The Big Bang Theory, and is 
+definetly perfect for a thing like this. 
 
-Just an easy background image over the entire screen. 
-Keeping the theme from my other work on HTML/CSS (found here) i decided 
-to implement the same rounded borders. 
+RULES 
+https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock
 
-Just a big blob in the middle of the screen with all the content. 
 
-Header Rock Paper Scissors Lizard Spock. 
-A way to keep score. 
-A promt for winner/looser/and who picked what. 
-Clickable buttons for the different choices. 
+![screenshot](documentation/respons.png)
 
-That should be all. 
-More to come here. 
+https://www.websiteplanet.com/webtools/responsive-checker/
 
-JavaScript fundamentals for Lizard Spock. 
+## UX
 
-theGame() 
-	Here lies the game. 
-	Find what you can on make this work.
-	rules / and how to implement. 
-	Do NOT forget to quote sources and links. 
-	
-	RULES 
-	https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock
-	
-	INSPO 
-	https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript
-	https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/
-	https://codereview.stackexchange.com/questions/102057/rock-paper-scissors-lizard-and-spock
-	
-	FUNCTONS
-	https://stackoverflow.com/questions/23849365/adding-scores-to-a-variable
 
-score()
-	How to keep score? 
-	comp/player
-		whoWins()
-			player === cpmputer = tie
-			if player *** && computer ** return/console you win. 
-			else you lose. 
-		i believe its somehing like this. 
 
-playerScore = 0;
-	computerScore = 0;
-		if player win i++ ?? i = playerScore
-		same but compScore. 
+### Colour Scheme
 
-result()
-	Here i want to show who picked what.
-	computer picked **** you picked ****
-	**** beats **** so comp win.
+Colors where picked to make a high contrast, and slightly alien feel. Slight gradient on both
+the greenish background and the man Game Content area to not be to stale. 
 
-document. results, some inner/outerHTML here targeting the result div
-	to make it appear? i guess thats the way to do it. 
-	google it, find out. You have time. 
+![color scheme](docomentation/colours.png)
 
-buttons()
-	Here is where you make your choice.
-	what to pick. 
-	player-choice : 	rock
-			paper
-			scissors
-			lizard	
-			spock. 
+- `#009FE3` Primary text color.
+- `#000000` Background gradient top left.
+- `#E84610` Background gradient bottom right.
+- `#009FE3` Background header and Rules.
+- `#009FE3` Background Content gradient top left.
+- `#009FE3` Background Content gradient bottom right.
+- `#009FE3` Link color. 
 
-HTML fundamentals. 
+### Typography
 
-The html should be relatively easy to whip up. 
-again divs, i must use span for the scores, only way i can 
-think of right now to make it change, if not a div and innerHTML-something. 
 
-Use of https://developer.chrome.com/blog/css-text-wrap-balance/
-for heading. 
 
-Favicon https://www.flaticon.com/free-icon/vulcan-salute_4763373?term=spock&page=1&position=1&origin=tag&related_id=4763373
+Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
 
-Helpfull on array insteed of if / else. 
-https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/
+
+
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site. 
+
+## Wireframes
+
+They are exactly the same on mobile/desktop. 
+
+![wireframe](documentation/wire-explain.png)
+
+## Features
+
+- **Whole site.**
+
+    - Site built to fit on any modern screen. Inviting colors in high contrast.
+
+![screenshot](documentation/feat-whole.png)
+
+- **Header**
+
+    - In the header i have used a relativly new function called text-wrap: balance. 
+    On big screens it makes no difference.  
+
+![screenshot](documentation/feat-header.png)
+
+- **Header Mobile text-wrap**
+
+    -In the header i have used a relativly new function called text-wrap: balance. 
+    But here on mobile it make all the difference, usually the break would be after 
+    Lizard, so Spock. would have been alone (orfan) but with text-wrap: balance it 
+    balances the text, so we have two words on the lower line. Much prettier. 
+
+![screenshot](documentation/feat-header-balance.png)
+
+- **Rules / Footer**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feat-rules.png)
+
+- **Buttons**
+
+    - Buttons having fitting icons for its function. Reset button added to reset scores after a crushing defeat.
+
+![screenshot](documentation/feat-buttons.png)
+
+
+## Tools & Technologies Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
+- [JavaScript](https://www.javascript.com) used for user interaction on the site.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+- In the [GitHub repository](https://github.com/zakenaio/Lizard-Spock-ci-2023-fsd-p2-js), navigate to the Settings tab 
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://zakenaio.github.io/Lizard-Spock-ci-2023-fsd-p2-js)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/zakenaio/Lizard-Spock-ci-2023-fsd-p2-js) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/zakenaio/Lizard-Spock-ci-2023-fsd-p2-js.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/zakenaio/Lizard-Spock-ci-2023-fsd-p2-js)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/zakenaio/Lizard-Spock-ci-2023-fsd-p2-js)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+## Credits
+
+RULES 
+All rules with images and propper discription fond [HERE](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)
+
+
+I found some info how to use arrays insteed of IF/ELSE. 
+And it made the code so much easier. found [HERE](https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/)
+
+
+Use of text-wrap: balance
+[HERE](https://stackoverflow.com/questions/2908697/balanced-text-wrapping-in-html) i found the initial idea.
+
+[HERE](https://developer.chrome.com/blog/css-text-wrap-balance/) are information from developers.Google
+
+[HERE](https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap) are information from developers.Mozilla
+
+
+Favicon was found [HERE](https://www.flaticon.com/free-icon/vulcan-salute_4763373?term=spock&page=1&position=1&origin=tag&related_id=4763373)
+
+
+
+### Content
+
+🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
+A few examples have been provided below to give you some ideas.
+
+Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+
+
+### Media
+
+🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
+A few examples have been provided below to give you some ideas.
+
+If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
+Let the assessors know that you have explicit rights to use the media files within your project.
+
+Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
+The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
+by sending yourself the following command: `!freemedia`.
+
+🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+
+
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
+- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
