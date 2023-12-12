@@ -60,8 +60,8 @@ document. results, some inner/outerHTML here targeting the result div
 
 buttons()
 	Here is where you make your choice.
-	what to pick. Remember camelBack! 
-	playerChoice : 	rock
+	what to pick. 
+	player-choice : 	rock
 			paper
 			scissors
 			lizard	

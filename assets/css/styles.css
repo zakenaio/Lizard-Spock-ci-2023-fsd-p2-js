@@ -1,16 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100dvh;
-    margin: 0;
+    height: 100vh;
+    margin: auto;
     color: #c3c3c3;
     background-image: linear-gradient(-50deg, #b5d3c1, #7ba48b);
 }
 
 #main-container {
     text-align: center;
+    
 }
 
 #heading {
@@ -92,4 +92,11 @@ a {
 i {
     font-size: 1.5rem;
     padding: 5px;
+}
+
+@media screen and (min-height: 700px) {
+
+body {
+align-items: center;
+}
 }
