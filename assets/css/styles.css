@@ -15,10 +15,6 @@ body {
     background-image: linear-gradient(-50deg, #b5d3c1, #7ba48b);
 }
 
-#main-container {
-    text-align: center;
-}
-
 .heading {
     text-align: center;
     text-wrap: balance;
@@ -39,7 +35,6 @@ body {
     background-image: linear-gradient(-50deg, #8f4274, #73305c);
 }
 
-
 #score {
     display: flex;
     justify-content: space-around;
@@ -54,8 +49,16 @@ body {
 }
 
 #result {
-    height: 110px;
-    margin-top: -30px;
+    height: 150px;
+}
+
+#emp {
+    font-style: italic;
+}
+
+#strong {
+    font-style: italic;
+    font-size: 2em;
 }
 
 .choices button {
@@ -80,6 +83,7 @@ body {
     margin: -10px;
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: center;
 }
 
 .wrap {
