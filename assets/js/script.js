@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // SCORES 
 let playerScore = 0;
 let computerScore = 0;
@@ -29,7 +31,11 @@ function playerChoice(choice) {
     const result = whoWins(choice, computer);
 
     // SCORE ADDITION 
-    result === 'You win!' ? playerScore++ : result === 'You lose!' ? computerScore++ : null;
+     if (result === 'You win!') {
+        playerScore++;
+    } else if (result === 'You lose!') {
+        computerScore++;
+    }
 
     // SCORE UPDATE
     updateScore();
