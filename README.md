@@ -58,7 +58,7 @@ Wireframe with explanation of my process.
 
 - **Header**
 
-    - 
+    - Straight to the point header with only the title. 
 
 ![screenshot](documentation/feat-header.png)
 
@@ -71,7 +71,7 @@ Wireframe with explanation of my process.
 
 - **Buttons**
 
-    - Buttons having fitting icons for its function. Reset button added to reset scores after a crushing defeat.
+    - Buttons have fitting icons for their function. Reset button was added to reset scores after a crushing defeat.
 
 ![screenshot](documentation/feat-buttons.png)
 
@@ -131,25 +131,17 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 You can fork this repository by using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/zakenaio/Lizard-Spock-ci-2023-fsd-p2-js)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+2. At the top of the Repository (not top of the page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 ## Credits
 
 RULES 
-All of the rules with images and proper description found [HERE](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)
+All of the rules with images and proper descriptions found [HERE](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)
 
 
 I found some info on how to use arrays instead of IF/ELSE. 
 And it made the code so much easier. found [HERE](https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/)
-
-
-Use of text-wrap: balance
-[HERE](https://stackoverflow.com/questions/2908697/balanced-text-wrapping-in-html) i found the initial idea.
-
-[HERE](https://developer.chrome.com/blog/css-text-wrap-balance/) are information from developers.Google
-
-[HERE](https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap) are information from developers.Mozilla
 
 
 Favicon was found [HERE](https://www.flaticon.com/free-icon/vulcan-salute_4763373?term=spock&page=1&position=1&origin=tag&related_id=4763373)

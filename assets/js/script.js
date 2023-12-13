@@ -7,33 +7,17 @@ let computerScore = 0;
  */
 function computerChoice() {
     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
-    const randomNumber = Math.floor(Math.random() * 5);
-    return choices[randomNumber];
+    return choices[Math.floor(Math.random() * 5)];
 }
 
-// EVENT LISTENERS FOR PLAYERCHOICE BUTTONS
-// need to simplify! must be a better way, loop? array? 
-document.getElementById('rock-btn').addEventListener('click', function() {
-    playerChoice('rock');
+// EVENT LISTENERS FOR PLAYERCHOICE BUTTONS -please work this time! 
+document.addEventListener('DOMContentLoaded', function() {
+    ['rock', 'paper', 'scissors', 'lizard', 'spock'].forEach(choice => {
+        document.getElementById(`${choice}-btn`).addEventListener('click', () => playerChoice(choice));
+    });
 });
 
-document.getElementById('papr-btn').addEventListener('click', function() {
-    playerChoice('paper');
-});
-
-document.getElementById('scisrs-btn').addEventListener('click', function() {
-    playerChoice('scissors');
-});
-
-document.getElementById('lzrd-btn').addEventListener('click', function() {
-    playerChoice('lizard');
-});
-
-document.getElementById('spock-btn').addEventListener('click', function() {
-    playerChoice('spock');
-});
-
-// EVENT LISTENER FOR RESET GAME
+// EVENT LISTENER FOR RESET BUTTON
 document.getElementById('rst-btn').addEventListener('click', resetGame);
 
 /**
@@ -44,18 +28,16 @@ function playerChoice(choice) {
     const computer = computerChoice();
     const result = whoWins(choice, computer);
 
-
     // SCORE ADDITION 
-    if (result === 'You win!') {
-        playerScore++;
-    } else if (result === 'You lose!') {
-        computerScore++;
-    }
+    result === 'You win!' ? playerScore++ : result === 'You lose!' ? computerScore++ : null;
 
     // SCORE UPDATE
     updateScore();
     document.getElementById('result').innerHTML = 
-    `<h2>You chose ${choice}.<br>Computer chose ${computer}.<br>${result}</h2>`;
+    `<h2>
+        You chose <span id="emp">${choice}.</span><br>
+        Computer chose <span id="emp">${computer}.</span><br>
+        <span id="strong">${result}</span></h2>`;
 }
 
 /**
@@ -73,11 +55,10 @@ const wins = {
  * Determines who wins by using the keys / dict.
  */
 function whoWins(player, computer) {
-    const winConditions = wins[player];
     if (player === computer) {
         return 'Tie!';
     }
-    if (winConditions.includes(computer)) {
+    if (wins[player].includes(computer)) {
         return 'You win!';
     } else {
         return 'You lose!';
@@ -89,9 +70,7 @@ function whoWins(player, computer) {
  * who wins result. 
  */
 function updateScore() {
-    // PLAYER-SCORE
     document.getElementById('player-score').innerText = playerScore;
-    // COMPUTER-SCORE
     document.getElementById('computer-score').innerText = computerScore;
 }
 
@@ -103,5 +82,5 @@ function resetGame() {
     playerScore = 0;
     computerScore = 0;
     updateScore();
-    document.getElementById('result').innerHTML = ` `;
+    document.getElementById('result').innerHTML = '';
 }
