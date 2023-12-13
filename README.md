@@ -58,19 +58,10 @@ Wireframe with explanation of my process.
 
 - **Header**
 
-    - In the header I have used a relatively new function called text-wrap: balance. 
-    On big screens it makes no difference.  
+    - 
 
 ![screenshot](documentation/feat-header.png)
 
-- **Header Mobile text-wrap**
-
-    -In the header I have used a relatively new function called text-wrap: balance. 
-    But here on mobile it makes all the difference, usually the break would be after 
-    Lizard, so Spock. would have been alone (orphan) but with text-wrap: balance it 
-    balances the text, so we have two words on the lower line. Much prettier. 
-
-![screenshot](documentation/feat-header-balance.png)
 
 - **Rules / Footer**
 
@@ -163,13 +154,22 @@ Use of text-wrap: balance
 
 Favicon was found [HERE](https://www.flaticon.com/free-icon/vulcan-salute_4763373?term=spock&page=1&position=1&origin=tag&related_id=4763373)
 
-More sources i have looked at to understand the process and functions. 
+More sources I have looked at to understand the process and functions. 
 - https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/
 
 - https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript
 
 - https://codereview.stackexchange.com/questions/102057/rock-paper-scissors-lizard-and-spock
 
+
+JavaScript sources I have used. 
+- https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick
+
+- https://stackoverflow.com/questions/49075769/addeventlistener-for-domcontentloaded-is-not-working
+
+- https://developer.mozilla.org/en-US/docs/Web/Events/Event_handlers
+
+- https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
 
 ### Content

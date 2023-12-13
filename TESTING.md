@@ -19,31 +19,6 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ![CSS Validation](documentation/test-w3css.png)
 
-Here we find a problem, the text-wrap: balance feature. 
-It's supported in all but Safari so far, but on unsupported devices 
-it just defaults to normal. 
-
-text-wrap: balance
-
-![Text-Wrap Comp](documentation/feat-header-balance.png)
-
-not using - text-wrap: balance
-
-![Text-Wrap Comp](documentation/test-balance-comp-not.png)
-
-text-wrap: balance browser support
-
-![Broswer support](documentation/text-balance-comp.png)
-
-#### Use of text-wrap: balance
-Here is where I found the initial idea.
-- https://stackoverflow.com/questions/2908697/balanced-text-wrapping-in-html
-
-Here are information from developers.Google
-- https://developer.chrome.com/blog/css-text-wrap-balance/
-
-Here are information from developers.Mozilla
-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap
 
 Link for testing of the live site.
 - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fzakenaio.github.io%2FLizard-Spock-ci-2023-fsd-p2-js%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv  
@@ -102,4 +77,16 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Bugs.
 
-None, that I know of. 
+Found some bugs with the styling with overflow. 
+The fix was :
+`
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+`
+And in the body :
+`
+     width: 100% !important;
+`
