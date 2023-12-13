@@ -12,50 +12,63 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!--TITLE -->
-    <title>Rock Paper Scissors Lizard Spock</title>
+    <title>Rock Paper Scissors Lizard Spock.</title>
 </head>
 
 <!-- MAIN CONTAINER -->
-<div id="main-container">
+<body id="main-container">
     <!-- HEADING -->
-    <div id="heading">
-        <h1>Rock Paper Scissors Lizard Spock.</h1>
-    </div>
+    <header class="heading">
+        <h1>
+            Rock Paper Scissors Lizard Spock.
+        </h1>
+    </header>
     <!-- THE GAME -->
-    <div id="the-game">
+    <main id="the-game">
         <!-- SCORES -->
         <div id="score">
             <div class="scores">
                 <i class="fa-solid fa-user-large"></i> : <span id="player-score">0</span>
             </div>
-            <div style="flex-grow: 1;"></div>
+            <div class="grow"></div>
             <div class="scores">
                 <i class="fa-solid fa-robot"></i> : <span id="computer-score">0</span>
             </div>
         </div>
         <!-- RESULTS CONTAINER-->
         <div id="result">
-            <h2> RESULTS
-            </h2>
         </div>
         <!-- GAME BUTTONS -->
         <div class="choices">
-            <button aria-label="Rock" onclick="playerChoice('rock')"><i class="fa-solid fa-hand-back-fist"></i>
-                <br>Rock</button>
-            <button aria-label="Paper" onclick="playerChoice('paper')"><i class="fa-solid fa-hand"></i>
-                <br>Paper</button>
-            <button aria-label="Scissors" onclick="playerChoice('scissors')"><i class="fa-solid fa-hand-scissors"></i>
-                <br>Scissors</button>
-            <button aria-label="Lizard" onclick="playerChoice('lizard')"><i class="fa-solid fa-hand-lizard"></i>
-                <br>Lizard</button>
-            <button aria-label="Spock" onclick="playerChoice('spock')"><i class="fa-solid fa-hand-spock"></i>
-                <br>Spock</button>
+            <button aria-label="Rock" id="rock-btn">
+                <i class="fa-solid fa-hand-back-fist"></i><br>
+                Rock
+            </button>
+            <button aria-label="Paper" id="papr-btn">
+                <i class="fa-solid fa-hand"></i><br>
+                Paper
+            </button>
+            <button aria-label="Scissors" id="scisrs-btn">
+                <i class="fa-solid fa-hand-scissors"></i><br>
+                Scissors
+            </button>
+            <button aria-label="Lizard" id="lzrd-btn">
+                <i class="fa-solid fa-hand-lizard"></i><br>
+                Lizard
+            </button>
+            <button aria-label="Spock" id="spock-btn">
+                <i class="fa-solid fa-hand-spock"></i><br>
+                Spock
+            </button>
             <!-- RESET BUTTON -->
-            <button aria-label="Reset" onclick="resetGame()"><i class="fa-solid fa-rotate-left"></i> <br>Reset</button>
+            <button aria-label="Reset" id="rst-btn">
+                <i class="fa-solid fa-rotate-left"></i><br>
+                Reset
+            </button>
         </div>
-    </div>
+    </main>
     <!-- RULES DIV -->
-    <div class="rules">
+    <footer class="rules">
         <div>
             <h3>
                 Rules
@@ -79,12 +92,13 @@
         </div>
         <p>
             <a href="https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock"
-                title="Link to more rules of the game, opens in new tab" target="_blank">Link</a> to a more discriptive
+                title="Link to more rules of the game, opens in new tab" target="_blank">
+                Link</a> to a more discriptive
             version av the rules.
         </p>
-    </div>
-</div>
+    </footer>
 
+<!-- JAVASCRIPT HOOK -->
 <script src="assets/js/script.js"></script>
 <!-- FONT AWESOME HOOK -->
 <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>

@@ -11,6 +11,31 @@ function computerChoice() {
     return choices[randomNumber];
 }
 
+// EVENT LISTENERS FOR PLAYERCHOICE BUTTONS
+// need to simplify! must be a better way, loop? array? 
+document.getElementById('rock-btn').addEventListener('click', function() {
+    playerChoice('rock');
+});
+
+document.getElementById('papr-btn').addEventListener('click', function() {
+    playerChoice('paper');
+});
+
+document.getElementById('scisrs-btn').addEventListener('click', function() {
+    playerChoice('scissors');
+});
+
+document.getElementById('lzrd-btn').addEventListener('click', function() {
+    playerChoice('lizard');
+});
+
+document.getElementById('spock-btn').addEventListener('click', function() {
+    playerChoice('spock');
+});
+
+// EVENT LISTENER FOR RESET GAME
+document.getElementById('rst-btn').addEventListener('click', resetGame);
+
 /**
  * Get the players choice (choice) and compare
  * to computerChoice (computer)
@@ -18,6 +43,7 @@ function computerChoice() {
 function playerChoice(choice) {
     const computer = computerChoice();
     const result = whoWins(choice, computer);
+
 
     // SCORE ADDITION 
     if (result === 'You win!') {
@@ -28,7 +54,8 @@ function playerChoice(choice) {
 
     // SCORE UPDATE
     updateScore();
-    document.getElementById('result').innerHTML = `<h2>You chose ${choice}.<br>Computer chose ${computer}.<br>${result}</h2>`;
+    document.getElementById('result').innerHTML = 
+    `<h2>You chose ${choice}.<br>Computer chose ${computer}.<br>${result}</h2>`;
 }
 
 /**
@@ -76,5 +103,5 @@ function resetGame() {
     playerScore = 0;
     computerScore = 0;
     updateScore();
-    document.getElementById('result').innerHTML = `<h2>RESULTS</h2>`;
+    document.getElementById('result').innerHTML = ` `;
 }
