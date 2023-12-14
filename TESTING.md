@@ -42,7 +42,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Browser |  |
 | --- | --- |
 | Firefox | ![screenshot](documentation/test-browser-firefox.png) | 
-| Edge | ![screenshot](documentation/test-browser-edge.png) | 
+| Edge | ![screenshot](documentation/test-broswer-edge.png) | 
 | Safari | ![screenshot](documentation/test-browser-safari.png) | 
 | Brave | ![screenshot](documentation/test-browser-brave.png) | 
 

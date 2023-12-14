@@ -12,7 +12,7 @@ function computerChoice() {
     return choices[Math.floor(Math.random() * 5)];
 }
 
-// EVENT LISTENERS FOR PLAYERCHOICE BUTTONS -please work this time! 
+// EVENT LISTENERS FOR PLAYERCHOICE BUTTONS
 document.addEventListener('DOMContentLoaded', function() {
     ['rock', 'paper', 'scissors', 'lizard', 'spock'].forEach(choice => {
         document.getElementById(`${choice}-btn`).addEventListener('click', () => playerChoice(choice));
@@ -82,7 +82,6 @@ function updateScore() {
 
 /**
  * resets game by changing score spans to 0
- * and update result to its default value. RESULTS
  */
 function resetGame() {
     playerScore = 0;
