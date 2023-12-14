@@ -42,13 +42,13 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Browser |  |
 | --- | --- |
 | Brave | ![screenshot](documentation/test-browser-brave.png) | 
-| --- | Works as expected |
+| | Works as expected |
 | Edge | ![screenshot](documentation/test-broswer-edge.png) | 
-| --- | Works as expected |
-| Safari | ![screenshot](documentation/test-browser-safari.png) |
-| --- | Here the reset button is by itself, will see if i can find a solution. |
-| Firefox | ![screenshot](documentation/test-browser-firefox.png) |
-| --- | Here the reset button is by itself, will see if i can find a solution. |
+| | Works as expected |
+| Safari macOS | ![screenshot](documentation/test-browser-safari.png) |
+| | Here the reset button is by itself, will see if i can find a solution. |
+| Firefox macOS | ![screenshot](documentation/test-browser-firefox.png) |
+| | Here the reset button is by itself, will see if i can find a solution. |
 
 
 ## Responsiveness
