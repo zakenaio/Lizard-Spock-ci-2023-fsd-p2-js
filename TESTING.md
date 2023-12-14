@@ -54,7 +54,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Device | DevTools | On Device |
 | --- | --- | --- |
 | Mobile  | ![mobile dev](documentation/test-respons-mobile.jpg) | ![pixel 7p](documentation/test-respons-mobile-p7.png) |
-| Tablet  | ![tablet dev](documentation/test-respons-tablet.jpg) | ![tablet samsung](documentation/test-respons-tablet-samsung.png) |
+| Tablet  | ![tablet dev](documentation/test-respons-tablet.jpg) | ![tablet samsung](documentation/test-respons-tablet-samsung.jpg) |
 | Desktop | ![desktop dev](documentation/test-respons-desktop.png) | ![desktop dev](documentation/test-respons-desktop-full.png) |  
 
 
