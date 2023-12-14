@@ -41,10 +41,14 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser |  |
 | --- | --- |
-| Firefox | ![screenshot](documentation/test-browser-firefox.png) | 
-| Edge | ![screenshot](documentation/test-broswer-edge.png) | 
-| Safari | ![screenshot](documentation/test-browser-safari.png) | 
 | Brave | ![screenshot](documentation/test-browser-brave.png) | 
+| --- | Works as expected |
+| Edge | ![screenshot](documentation/test-broswer-edge.png) | 
+| --- | Works as expected |
+| Safari | ![screenshot](documentation/test-browser-safari.png) |
+| --- | Here the reset button is by itself, will see if i can find a solution. |
+| Firefox | ![screenshot](documentation/test-browser-firefox.png) |
+| --- | Here the reset button is by itself, will see if i can find a solution. |
 
 
 ## Responsiveness
@@ -90,3 +94,6 @@ And in the body :
 `
      width: 100% !important;
 `
+
+On mac in Safari and FireFox the Reset button was on a new line underneath the 
+Game-buttons. Will investigate. 
