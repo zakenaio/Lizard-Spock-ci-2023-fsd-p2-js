@@ -29,7 +29,7 @@ function playerChoice(choice) {
     const result = whoWins(choice, computer);
 
     // SCORE ADDITION 
-     if (result === 'You win!') {
+    if (result === 'You win!') {
         playerScore++;
     } else if (result === 'You lose!') {
         computerScore++;
