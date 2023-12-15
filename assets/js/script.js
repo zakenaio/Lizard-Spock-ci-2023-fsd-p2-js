@@ -11,7 +11,7 @@ function computerChoice() {
 }
 
 // EVENT LISTENERS FOR PLAYERCHOICE BUTTONS
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     ['rock', 'paper', 'scissors', 'lizard', 'spock'].forEach(choice => {
         document.getElementById(`${choice}-btn`).addEventListener('click', () => playerChoice(choice));
     });
@@ -37,8 +37,8 @@ function playerChoice(choice) {
 
     // SCORE UPDATE
     updateScore();
-    document.getElementById('result').innerHTML = 
-    `<h2>
+    document.getElementById('result').innerHTML =
+        `<h2>
         You chose <span id="emp">${choice}.</span><br>
         Computer chose <span id="emp">${computer}.</span><br>
         <span id="strong">${result}</span></h2>`;

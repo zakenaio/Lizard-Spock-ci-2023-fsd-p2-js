@@ -30,10 +30,6 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ![JavaScript Validation](documentation/test-javascript.png)
 
-It says here that there are two functions not in use. 
-The playerChoice - Triggered by the buttons Rock / Paper / Scissors / Lizard / Spock.
-The resetGame - Triggered by the reset button.
-
 
 ## Browser Compatibility
 
