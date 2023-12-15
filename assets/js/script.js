@@ -1,5 +1,3 @@
-/*jshint esversion: 6 */
-
 // SCORES 
 let playerScore = 0;
 let computerScore = 0;
