@@ -86,6 +86,7 @@ Wireframe with explanation of my process.
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [VScode](https://code.visualstudio.com/) used for local development.
+- [JSHint](https://jshint.com/) used for JavaSctipt testing. 
 
 ## Testing
 
