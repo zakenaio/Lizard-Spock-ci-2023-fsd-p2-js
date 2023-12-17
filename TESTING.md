@@ -77,7 +77,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Bugs.
 
-Found some bugs with the styling with overflow. 
+### Solved bug
+Found some bugs with the styling with overflow. small screen horizontal overflowsss 
 The fix was :
 `
     * {
@@ -92,4 +93,4 @@ And in the body :
 `
 
 On mac in Safari and FireFox the Reset button was on a new line underneath the 
-Game-buttons. Will investigate. 
+Game-buttons. Doesnt affect the game. 
