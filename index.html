@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- METATAGS -->
+    <meta name="description" content="Rock Paper Scissors Lizard Spock game.">
+    <meta name="keywords" content="rock, paper, scissors, lizard, spock, game">
+    
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="assets/images/vulcan-favicon.png">
 
@@ -19,9 +23,7 @@
 <body id="main-container">
     <!-- HEADING -->
     <header class="heading">
-        <h1>
-            Rock Paper Scissors Lizard Spock.
-        </h1>
+        <h1>Rock Paper Scissors Lizard Spock.</h1>
     </header>
     <!-- THE GAME -->
     <main id="the-game">
@@ -36,32 +38,31 @@
             </div>
         </div>
         <!-- RESULTS CONTAINER-->
-        <div id="result">
-        </div>
+        <div id="result"></div>
         <!-- GAME BUTTONS -->
         <div class="choices">
-            <button aria-label="Rock" id="rock-btn">
+            <button aria-label="Rock" title="Rock" id="rock-btn">
                 <i class="fa-solid fa-hand-back-fist"></i><br>
                 Rock
             </button>
-            <button aria-label="Paper" id="paper-btn">
+            <button aria-label="Paper" title="Paper" id="paper-btn">
                 <i class="fa-solid fa-hand"></i><br>
                 Paper
             </button>
-            <button aria-label="Scissors" id="scissors-btn">
+            <button aria-label="Scissors" title="Scissors" id="scissors-btn">
                 <i class="fa-solid fa-hand-scissors"></i><br>
                 Scissors
             </button>
-            <button aria-label="Lizard" id="lizard-btn">
+            <button aria-label="Lizard" title="Lizard" id="lizard-btn">
                 <i class="fa-solid fa-hand-lizard"></i><br>
                 Lizard
             </button>
-            <button aria-label="Spock" id="spock-btn">
+            <button aria-label="Spock" title="Spock" id="spock-btn">
                 <i class="fa-solid fa-hand-spock"></i><br>
                 Spock
             </button>
             <!-- RESET BUTTON -->
-            <button aria-label="Reset" id="rst-btn">
+            <button aria-label="Reset" title="Reset" id="rst-btn">
                 <i class="fa-solid fa-rotate-left"></i><br>
                 Reset
             </button>
@@ -70,9 +71,7 @@
     <!-- RULES DIV -->
     <footer class="rules">
         <div>
-            <h3>
-                Rules
-            </h3>
+            <h2>Rules</h2>
         </div>
         <div class="wrap">
             <div class="left">
@@ -91,17 +90,16 @@
             </div>
         </div>
         <p>
-            <a href="https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock"
-                title="Link to more rules of the game, opens in new tab" target="_blank">
-                Link</a> to a more discriptive
-            version av the rules.
+            <a href="https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock" 
+            title="Link to more rules of the game, opens in new tab"
+            aria-label="Link to more rules of the game, opens in new tab" target="_blank">
+                Link</a> to a more discriptive version av the rules.
         </p>
     </footer>
 
-<!-- JAVASCRIPT HOOK -->
-<script src="assets/js/script.js"></script>
-<!-- FONT AWESOME HOOK -->
-<script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <!-- JAVASCRIPT HOOK -->
+    <script src="assets/js/script.js"></script>
+    <!-- FONT AWESOME HOOK -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

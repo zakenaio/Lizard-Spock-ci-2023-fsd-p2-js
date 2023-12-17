@@ -137,7 +137,7 @@ You can fork this repository by using the following steps:
 ## Credits
 
 RULES 
-All of the rules with images and proper descriptions found [HERE](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)
+All of the rules with images and proper descriptions found [HERE](https://www.wikihow.com/Play-Rock-Paper-Scissors-Lizard-Spock)
 
 
 I found some info on how to use arrays instead of IF/ELSE. 
@@ -147,6 +147,8 @@ And it made the code so much easier. found [HERE](https://learnersbucket.com/tut
 Favicon was found [HERE](https://www.flaticon.com/free-icon/vulcan-salute_4763373?term=spock&page=1&position=1&origin=tag&related_id=4763373)
 
 More sources I have looked at to understand the process and functions. 
+All three sites have been important to understand how to use functions 
+all in their own right. 
 - https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/
 
 - https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript
@@ -171,13 +173,9 @@ JavaScript sources I have used.
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 
 
-### Media
-
-
-
 ### Acknowledgements
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
-- I would like to thank my Code Institute mentor, [Luliia Konovalova](https://github.com/IuliiaKonovalova) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Julia Konovalova](https://github.com/IuliiaKonovalova) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.

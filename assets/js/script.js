@@ -1,24 +1,36 @@
 // SCORES 
 let playerScore = 0;
 let computerScore = 0;
+const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+// Defines the winning and losing combinations for each hand
+const wins = {
+    rock: ['scissors', 'lizard'],
+    paper: ['rock', 'spock'],
+    scissors: ['paper', 'lizard'],
+    lizard: ['spock', 'paper'],
+    spock: ['rock', 'scissors']
+};
 
 /**
  * Computers randomly generated choice
  */
 function computerChoice() {
-    const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     return choices[Math.floor(Math.random() * 5)];
 }
 
-// EVENT LISTENERS FOR PLAYERCHOICE BUTTONS
+/**
+ * DOMContentLoaded to make sure everthing is loaded
+ * This forEach loop adds event listeners to each player choice button, so that 
+ * when a button is clicked, playerChoice function is called.
+ */
 document.addEventListener('DOMContentLoaded', function () {
+    // EVENT LISTENERS FOR PLAYERCHOICE BUTTONS
     ['rock', 'paper', 'scissors', 'lizard', 'spock'].forEach(choice => {
         document.getElementById(`${choice}-btn`).addEventListener('click', () => playerChoice(choice));
     });
+    // EVENT LISTENER FOR RESET BUTTON
+    document.getElementById('rst-btn').addEventListener('click', resetGame);
 });
-
-// EVENT LISTENER FOR RESET BUTTON
-document.getElementById('rst-btn').addEventListener('click', resetGame);
 
 /**
  * Get the players choice (choice) and compare
@@ -35,7 +47,10 @@ function playerChoice(choice) {
         computerScore++;
     }
 
-    // SCORE UPDATE
+    /**
+    * Score Update. Writes to result-div.
+    */
+    
     updateScore();
     document.getElementById('result').innerHTML =
         `<h2>
@@ -43,17 +58,6 @@ function playerChoice(choice) {
         Computer chose <span id="emp">${computer}.</span><br>
         <span id="strong">${result}</span></h2>`;
 }
-
-/**
- * Defines the winning and losing combinations for each hand
- */
-const wins = {
-    rock: ['scissors', 'lizard'],
-    paper: ['rock', 'spock'],
-    scissors: ['paper', 'lizard'],
-    lizard: ['spock', 'paper'],
-    spock: ['rock', 'scissors']
-};
 
 /**
  * Determines who wins by using the keys / dict.
