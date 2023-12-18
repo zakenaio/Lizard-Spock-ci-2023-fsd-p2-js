@@ -1,4 +1,3 @@
-check spelling
 # [LIZARD SPOCK CI 2023 FSD P2 JS](https://zakenaio.github.io/Lizard-Spock-ci-2023-fsd-p2-js)
 
 The wonderful world of pop-culture games. 
