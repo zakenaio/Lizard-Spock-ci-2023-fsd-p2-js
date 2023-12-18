@@ -157,7 +157,7 @@ all in their own right.
 - https://codereview.stackexchange.com/questions/102057/rock-paper-scissors-lizard-and-spock
 
 
-JavaScript sources I have used. 
+JavaScript sources I have used.  
 - https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick
 
 - https://stackoverflow.com/questions/49075769/addeventlistener-for-domcontentloaded-is-not-working
@@ -165,6 +165,10 @@ JavaScript sources I have used.
 - https://developer.mozilla.org/en-US/docs/Web/Events/Event_handlers
 
 - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+JavaScript - Understanding forEach. 
+I struggled with making one function to handle all player-buttons. This pointed me in the right direction.
+- https://www.w3schools.com/jsref/jsref_forEach.asp
 
 
 ### Content
