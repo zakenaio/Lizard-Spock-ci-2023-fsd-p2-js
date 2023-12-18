@@ -169,6 +169,7 @@ JavaScript sources I have used.
 JavaScript - Understanding forEach. 
 I struggled with making one function to handle all player-buttons. This pointed me in the right direction.
 - https://www.w3schools.com/jsref/jsref_forEach.asp
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 
 
 ### Content
